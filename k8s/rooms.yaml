@@ -10,3 +10,5 @@ spec:
       containers:
       - name: rooms
         image: nginx:1.27
+        resources:
+          limits: {memory: "256Mi", cpu: "500m"}
